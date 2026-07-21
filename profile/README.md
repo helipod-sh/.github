@@ -40,7 +40,7 @@ const messages = useQuery(api.messages.list, { channel });
 | 🚀 **[helipod](https://github.com/helipod-sh/helipod)** | The monorepo — engine, CLI, client SDK, dashboard, and docs |
 
 ```bash
-bun add -g @helipod/cli   # or: npm i -g @helipod/cli
+bun add helipod           # or: npm install helipod
 helipod dev               # local engine + dashboard + hot reload
 ```
 
